@@ -1,7 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+## Version 1.0
+
+- Fetches GIFs with Giphy API, you only need to type the word into the input
+    - Uses input onChange (it will send a request everytime you hit a key)
+- By Clicking on the GIF in the search results you will save it.
+- Two routes: one for searching for GIFs, one for showing the saved GIFs
+- You can delete the GIF
+- You can assign a GIF to a Group
+- uses [redux-persist](#https://github.com/rt2zz/redux-persist), to save the GIFs
+- uses [redux-logger](#https://github.com/evgenyrodionov/redux-logger)
+- uses [redux-thunk](#https://github.com/gaearon/redux-thunk)
+- 
 
 ## Table of Contents
 
